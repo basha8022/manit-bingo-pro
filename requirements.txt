@@ -6,3 +6,4 @@ supabase
 segno
 streamlit-qrcode-scanner
 av
+# trigger restart
