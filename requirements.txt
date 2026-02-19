@@ -1,0 +1,9 @@
+streamlit
+streamlit-webrtc
+streamlit-qrcode-scanner
+ultralytics
+opencv-python-headless
+av
+numpy
+segno
+supabase
