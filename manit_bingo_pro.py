@@ -8,7 +8,7 @@ from datetime import datetime
 # --- 1. CLOUD CONNECTION & BRAIN ---
 # Enter your Supabase credentials here (or use st.secrets for safety)
 URL = "https://sb_publishable_5w-7cw7ZJazBnyd0XyMaYg_1E7qGdOs.supabase.co"
-KEY = "sb_publishable_5w-sb_secret_s7lcxtdVOT08PiyfViOH0Q_OyhMDoR8"
+KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVqb3B5c2Rnem11ZGtzamN3b3dnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE0NTYxMTEsImV4cCI6MjA4NzAzMjExMX0.fru7f--YTKJa0QrdFteg7Pq3d5JjmVB2gY-mNoQMll0"
 supabase = create_client(URL, KEY)
 
 @st.cache_resource
@@ -136,3 +136,4 @@ else:
             st.balloons()
 
             st.success(f"Deducted {amount} coins from {scanned_qr}!")
+
